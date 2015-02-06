@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo docker run -d --restart="always" -p 8888:8888 -p 55555:55555 --volumes-from btsync-data --name btsync derektamsen/btsync:latest
